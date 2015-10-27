@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="pocket.v3.API_KEY"
+            android:value="@string/pocket_api_key" />
     </application>
 
 </manifest>
